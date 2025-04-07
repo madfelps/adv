@@ -14,23 +14,26 @@ function About() {
                 Sobre a Dr. Thales Moura Madureira
               </h2>
               <p className="text-gray-700 mb-4">
-                Formada pela Universidade de São Paulo (USP) com especialização
-                em Direito Civil e Família, o Dr. Thales Madureira atua há mais
-                de 10 anos defendendo os interesses de seus clientes com
-                excelência técnica e sensibilidade humana.
+                Formado pelo Centro Universitário de Votuporanga e especializado
+                em áreas de Direito Trabalhista e Direito Previdenciário, o Dr.
+                Thales Madureira atua há mais de 5 anos prestando assessoria
+                jurídica com responsabilidade, dedicação e profundo conhecimento
+                técnico.
               </p>
               <p className="text-gray-700 mb-6">
-                Membro da Ordem dos Advogados do Brasil (OAB/SP) e da Associação
-                Brasileira de Advogados (ABA), possui vasta experiência em
-                processos judiciais e consultoria jurídica preventiva.
+                Inscrito na Ordem dos Advogados do Brasil (OAB/SP) e membro de
+                instituições como [nome de associações, se houver], o Dr. Thales
+                Madureira possui ampla experiência em processos judiciais,
+                negociações e consultoria jurídica preventiva, sempre com foco
+                na defesa dos direitos e interesses de seus clientes.
               </p>
             </div>
 
             {/* Imagem à direita */}
             <div className="flex-1">
               <img
-                src={heroImg} // Substitua pelo caminho correto da sua imagem
-                alt="Foto da Dra. Ana Lúcia"
+                src={heroImg}
+                alt="Foto da Dr. Thales Madureira"
                 className="rounded-2xl shadow-xl w-full object-cover"
               />
             </div>

@@ -22,7 +22,7 @@ const Hero = () => {
             Atuação especializada em Direito Civil e Família com mais de 10 anos
             de experiência defendendo seus direitos com ética e comprometimento.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex justify-center flex-wrap gap-4">
             <a
               href="#contato"
               className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold px-6 py-3 rounded shadow transition"

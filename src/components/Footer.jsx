@@ -7,11 +7,18 @@ function Footer() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <div className="flex items-center mb-4">
-                <div className="bg-blue-600 text-white p-2 rounded-lg mr-3">
-                  <i className="fas fa-balance-scale text-2xl"></i>
+              <div className="flex flex-col items-center justify-center text-center">
+                <div className="flex items-center mb-4">
+                  <div className="bg-blue-600 text-white p-2 rounded-lg mr-3">
+                    <i className="fas fa-balance-scale text-2xl"></i>
+                  </div>
+                  <h3 className="text-xl font-bold">
+                    Advocacia e Consultoria Jurídica
+                  </h3>
                 </div>
-                <h3 className="text-xl font-bold">Madureira & Associados</h3>
+                <div>
+                  <h3 className="text-xl font-bold">Thales M. Madureira</h3>
+                </div>
               </div>
               <p className="text-gray-300 mb-4">
                 Escritório de advocacia especializado em diversas áreas do
@@ -26,7 +33,7 @@ function Footer() {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="#home"
+                    href="#hero"
                     className="text-gray-300 hover:text-white transition duration-300"
                   >
                     Início

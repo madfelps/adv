@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./../services.css";
+import { FaWhatsapp, FaInstagram } from "react-icons/fa";
 
 function Contato() {
   const [count, setCount] = useState(0);
@@ -54,6 +55,26 @@ function Contato() {
                   <br />
                   Sábado: 9h às 12h (com agendamento)
                 </p>
+              </div>
+              <div className="flex justify-center items-center gap-6 mt-4">
+                <a
+                  href="https://wa.me/5517991380070"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-green-600 text-4xl hover:text-green-700"
+                  aria-label="WhatsApp"
+                >
+                  <FaWhatsapp />
+                </a>
+                <a
+                  href="https://www.instagram.com/adv.thalesmadureira"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-pink-600 text-4xl hover:text-pink-700"
+                  aria-label="Instagram"
+                >
+                  <FaInstagram />
+                </a>
               </div>
             </div>
           </div>

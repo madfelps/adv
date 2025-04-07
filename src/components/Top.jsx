@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../assets/logo.png";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,11 @@ function Header() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo / Nome do Escritório */}
         <div className="text-2xl font-bold text-black tracking-tight">
-          Madureira & Associados
+          <img
+            src={logo}
+            alt="Logo - Advocacia Thales M. Madureira"
+            className="h-16 w-auto"
+          />
         </div>
 
         {/* Botão mobile */}
